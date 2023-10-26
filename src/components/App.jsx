@@ -1,9 +1,13 @@
+import React from 'react';
 import '../css/App.css';
+import NavBar from './NavBar';
+import About from './About';
 
 function App() {
   return (
     <div className="App">
-    <h1>My Name is Daniel Bazis</h1>
+    <NavBar />
+    <About />
     </div>
   );
 }
