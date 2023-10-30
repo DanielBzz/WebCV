@@ -1,0 +1,114 @@
+.menu {
+    font-family: 'Sometype Mono:wght@600', monospace;
+    align-items: center;
+    background-color: white;        /* built for change next*/
+    z-index: 10000;
+    position: fixed;
+}
+
+#navBar {
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    transition: top 1s; /* Add a transition for smooth animation */
+
+}
+
+#navBar.scrolled-up {
+    transform: translateY(-100%);
+}
+
+#sideMenu{
+    display: none;
+    right: 0px; /* Initially off-screen */
+    top: 68px;
+    background-color: #007bff;
+    margin: 0px;
+
+}
+
+#sideMenu ul{
+    padding: 0%;
+    margin: 0;
+}
+
+#sideMenu ul .node{
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+}
+
+#side-title {
+    flex-basis: auto;
+    flex-grow: 0;
+    min-width: 300px;
+    text-decoration: none;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#navBar ul {
+    gap: 3em;
+    flex-grow: 1;
+}
+
+.node a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    color: #ffffff;
+    transition: background-color 1s;
+    background-color: #007bff;
+}
+
+.menu .node a:hover {
+    background-color: #0056b3;
+}
+
+.circle {
+    border-radius: 20px;
+}
+
+#menuButton{
+    border-color: transparent;
+    background-color: transparent;
+    display: none;
+}
+
+#menuButton:hover{
+    border-color: aqua;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+@media(max-width: 1050px) and (min-width:850px){
+    #side-title{
+        display: none;
+    }
+}
+
+@media(max-width: 850px){
+ 
+    #navBar ul {
+        display: none;
+    }
+   
+    #menuButton{
+        display: flex;
+    }
+    
+    #sideMenu{
+        display: block;
+    }
+
+    #sideMenu ul{
+        flex-direction: column;
+    }
+}
