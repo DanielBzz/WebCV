@@ -33,7 +33,7 @@ export default function NavBar(){
             <NavNode aClass="circle" name="Education and Experience" />
             <NavNode aClass="circle" name="Contact" />
         </ul>
-        <button onClick={toggleSideMenu} id="menuButton"><img alt="menuIcon" src={MenuIcon} /></button>
+        <button className="colorizeBorderHover" onClick={toggleSideMenu} id="menuButton"><img alt="menuIcon" src={MenuIcon} /></button>
     </nav>
     {sideMenuOn && (
           <nav className="menu" id="sideMenu">
@@ -50,6 +50,6 @@ export default function NavBar(){
 
 function NavNode(props){
     return <li className="node">
-    <a className={props.aClass} href={`/${props.name}`}>{props.name}</a>
+    <a className={"colorizeButton " + props.aClass} href={`/#${props.name}`}>{props.name}</a>
     </li>
 }

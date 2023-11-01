@@ -1,4 +1,53 @@
 body {
-    font-family: 'Sometype Mono', monospace;
     padding-top: 70px;
+}
+*{
+    font-family: 'Sometype Mono', monospace;
+    background-color: #ABC4AA;
+    background-image: url(./icons/45-degree-fabric-dark.png);
+    color: #F3DEBA;
+}
+
+h1, h2, h3,h4,h5,h6{
+    color: #675D50;
+}
+
+.colorizeButton {
+    background-color: #675D50;
+    color: #F3DEBA;
+    transition: background-color 1s;
+}
+
+.colorizeButton:hover {
+    background-color: #A9907E;
+}
+
+.colorizeBorderHover:hover{
+    border-color: #675D50 !important;
+}
+
+.colorizeHover{
+    transition: background-color 1s;
+}
+
+.colorizeHover:hover{
+    background-color: #675D50;
+}
+
+.borderAddOn {
+    border-color: #ABC4AA;
+    border: 1px;
+    border-style:solid;
+    border-radius: 3em;
+    transition:transform 0.5s, box-shadow 0.6s;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.borderAddOn:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+
+div.borderAddOn:hover{
+    transform: translateY(-10px);
 }
