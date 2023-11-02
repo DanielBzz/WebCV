@@ -7,10 +7,12 @@ body {
     background-color: #ABC4AA;
     background-image: url(./resources/icons/45-degree-fabric-dark.png);
     color: #F3DEBA;
+    fill: #675D50;
 }
 
 h1, h2, h3,h4,h5,h6{
     color: #675D50;
+
 }
 
 .titleItem {
@@ -61,3 +63,4 @@ h1, h2, h3,h4,h5,h6{
 div.borderAddOn:hover{
     transform: translateY(-10px);
 }
+
