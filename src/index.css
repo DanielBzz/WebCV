@@ -1,10 +1,11 @@
 body {
     padding-top: 70px;
 }
+
 *{
     font-family: 'Sometype Mono', monospace;
     background-color: #ABC4AA;
-    background-image: url(./icons/45-degree-fabric-dark.png);
+    background-image: url(./resources/icons/45-degree-fabric-dark.png);
     color: #F3DEBA;
 }
 
@@ -12,6 +13,15 @@ h1, h2, h3,h4,h5,h6{
     color: #675D50;
 }
 
+.titleItem {
+    grid-column: 1 / -1;
+    font-size: 30px;
+    text-align: center;
+}
+
+.mainContainer{
+    padding-bottom: 100px;
+}
 .colorizeButton {
     background-color: #675D50;
     color: #F3DEBA;

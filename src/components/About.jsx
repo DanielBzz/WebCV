@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import "../css/About.css";
+import "../styles/About.css";
 
 export default function About(){
 
-    return <div id="About">
-    <div id="aboutContainer">
+    return <div id="About" className="mainContainer">
+    <div id="aboutContainer" className="mainContainer">
         <h1 id="aboutTitle" className="titleItem aboutItem">Hey, I'm Daniel.</h1>
         <h3 id="aboutSubTitle" className="titleItem aboutItem">A human && SW Developer</h3>
-        <div id="about" className="aboutItem borderAddOn">
+        <div className="aboutItem borderAddOn">
             <p>
                 I'm a passionate software developer with a keen interest in architecture and a penchant for tackling complex challenges.<br/> 
                 Armed with a degree in Computer Science, I'm poised to embark on my journey in the tech industry and eager to contribute my skills to innovative projects.<br/>

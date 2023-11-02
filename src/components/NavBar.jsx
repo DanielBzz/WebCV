@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../css/NavBar.css";
-import MenuIcon from "../icons/list.svg";
+import "../styles/NavBar.css";
+import MenuIcon from "../resources/icons/list.svg";
 
 export default function NavBar(){
     const [sideMenuOn, setSideMenu] = useState(false);
