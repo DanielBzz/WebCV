@@ -42,7 +42,8 @@ function Project(props) {
           <img alt="Logo" src={require("../resources/icons/" + logo)} />
         )}
       </h2>
-      <p>{projectData.description}</p>
+      {ParagraphFormatter(projectData.description)}
+      <p>{projectData.tech.length > 0 && projectData.tech}</p>
       <div id="linksContainer">
         {projectData.github.length > 0 && (
           <a className="projectLink colorizeButton" href={projectData.github}>
@@ -55,5 +56,21 @@ function Project(props) {
         )}
       </div>
     </div>
+  );
+}
+
+function ParagraphFormatter(str) {
+  const parts = str.split("  ");
+
+  return (
+    <p>
+      {parts.map((str, ind) => (
+        <span key={ind}>
+          {str}
+          {str[0] === "-" && <br />}
+          <br />
+        </span>
+      ))}
+    </p>
   );
 }

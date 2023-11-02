@@ -1,0 +1,8 @@
+{
+    "name" : "Facebook WinForm App",
+    "logoName" : "",
+    "github" : "https://github.com/DanielBzz/FacebookWinformApp",
+    "websiteLink" : "",
+    "description" : "The Facebook WinForm project is a Windows Forms application designed to interact with the Facebook API, allowing users to seamlessly log in and access their profile details, photos, and posts.  This application also introduces two exciting new features:  Slide Show: This feature randomly selects images from various albums, providing users with a nostalgic journey through their past moments captured on Facebook.  Find My Team: Leveraging your current friends list, this feature identifies individuals who share common hobbies. By selecting pages and groups related to your interests, you can filter your friends list to discover potential new connections.",
+    "tech" : "Facebook WinForm is a Windows application using C#, .NET framework and Winforms."
+}

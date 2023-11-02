@@ -1,0 +1,8 @@
+{
+    "name" : "Cracking the Enigma",
+    "logoName" : "",
+    "github" : "https://github.com/DanielBzz/Cracking-The-Enigma-Machine",
+    "websiteLink" : "",
+    "description" : "The Diets and Meals API application is a microservices-based system designed to efficiently manage meals, dishes, and diets data. It is composed of four independent services, each serving a specific purpose.  The application comprises four services, namely:  1. Meals Service:  * Creates and stores dishes and meals (by selecting 3 dishes from the database).  * Allows retrieval, update, and deletion of dishes and meals.  * Computes real-time nutrition facts for each dish and meal using data from a nutrition API.  2. Diet Service:  * Manages diet data, specifically the maximum nutrition facts for a meal.  * Supports retrieval, update, and deletion of diet information.  * Enables requests to the Meals API with a diet query parameter, returning meals conforming to the specified diet.",
+    "tech" : " Developed with Python and Django framework using external nutrition API, MySQl, reverse proxy(NGINX)."
+}
