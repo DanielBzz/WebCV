@@ -25,8 +25,7 @@
 }
 
 #sideMenu ul{
-    padding: 0%;
-    margin: 0;
+    flex-direction: column;
 }
 
 #sideMenu ul .node{
@@ -44,7 +43,6 @@
 }
 
 .menu ul {
-    list-style-type: none;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -53,12 +51,6 @@
 #navBar ul {
     gap: 3em;
     flex-grow: 1;
-}
-
-.node a {
-    text-decoration: none;
-    display: block;
-    padding: 10px 15px;
 }
 
 .circle {
@@ -90,9 +82,5 @@
     
     #sideMenu{
         display: block;
-    }
-
-    #sideMenu ul{
-        flex-direction: column;
     }
 }

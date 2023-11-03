@@ -1,0 +1,41 @@
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer hr {
+    width: 100%;
+    opacity: 50%;
+}
+
+#mainFooterArea{
+    display: flex;
+    font-size: 1.1em;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#secondaryFooterArea p{
+    margin: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.chosableItem li a{
+    background-color: transparent;
+    background-image: none;
+    padding:5px ;
+}
+
+.chosableItem li{
+    list-style-type: none;
+    transition: transform 0.5s;
+    background-color: transparent;
+    background-image: none;
+}
+
+.chosableItem li:hover{
+    transform: translateX(20px) scale(1.1);
+}
+

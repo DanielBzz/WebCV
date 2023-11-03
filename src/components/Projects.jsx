@@ -37,7 +37,9 @@ export default function Projects() {
     <div id="Projects" className="mainContainer">
       <h2 className="titleItem">My Projects</h2>
       <div id="leftArrow" className="arrow">
-        <button onClick={onArrowClick}><svg class="svg-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M590.08 810.666667a42.666667 42.666667 0 0 1-33.28-15.786667l-206.08-256a42.666667 42.666667 0 0 1 0-54.186667l213.333333-256a42.666667 42.666667 0 0 1 65.706667 54.613334L439.04 512l184.32 228.693333a42.666667 42.666667 0 0 1-33.28 69.973334z"  /></svg>
+        <button onClick={onArrowClick}><svg xmlns="http://www.w3.org/2000/svg" className="arrow-icon" viewBox="0 0 16 16">
+  <path d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z"/>
+</svg>
 </button>
       </div>
       <div id="projectContainer">
@@ -46,7 +48,9 @@ export default function Projects() {
         ))}
       </div>
       <div id="rightArrow" className="arrow">
-          <button onClick={onArrowClick}><svg class="svg-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M426.666667 810.666667a42.666667 42.666667 0 0 1-27.306667-9.813334 42.666667 42.666667 0 0 1-5.546667-60.16L584.96 512 400.64 282.88a42.666667 42.666667 0 0 1 6.4-60.16 42.666667 42.666667 0 0 1 62.293333 6.4l206.08 256a42.666667 42.666667 0 0 1 0 54.186667l-213.333333 256A42.666667 42.666667 0 0 1 426.666667 810.666667z"  /></svg></button>
+          <button onClick={onArrowClick}><svg xmlns="http://www.w3.org/2000/svg" className="arrow-icon" viewBox="0 0 16 16">
+  <path d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+</svg></button>
       </div>
     </div>
   );
