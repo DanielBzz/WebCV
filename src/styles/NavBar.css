@@ -7,6 +7,7 @@
 #navBar {
     display: flex;
     top: 0;
+    min-height: 68px;
     width: 100%;
     justify-content: center;
     transition: top 1s;
@@ -37,7 +38,7 @@
 #side-title {
     flex-basis: auto;
     flex-grow: 0;
-    min-width: 300px;
+    min-width: 230px;
     text-decoration: none;
 
 }
@@ -76,8 +77,13 @@
         display: none;
     }
    
+    #navBar{
+        justify-content: space-between;
+    }
+
     #menuButton{
         display: flex;
+        margin-right: 50px;
     }
     
     #sideMenu{

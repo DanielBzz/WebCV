@@ -22,7 +22,7 @@ export default function About(){
         <SkillType title="Programming languange" skills={["Java", "C#", "Python", "C", "C++", "JavaScript", "CSS", "HTML"]}/>
         <SkillType title="Frameworks" skills={["Spring", "Django", ".NET", "React"]}/>
         <SkillType title="Dev tools" skills={["Git & GitHub & GitHub Actions", "Docker", "Tomcat-servlets", "AWS", "Postman", "Linux", "SQL", "Virtual Box", "Vagrant"]}/>
-        <SkillType title="Familiar concepts" skills={["Object oriented programming", "Design pattenrs", "Multi-Threading", "Test-driven development", "CI/CD" ]}/>
+        <SkillType title="Familiar concepts" skills={["Object oriented programming", "Design pattenrs", "Multi-Threading", "Test-driven development", "CI/CD", "Micro-services"]}/>
     </div>
     </div>;
 }

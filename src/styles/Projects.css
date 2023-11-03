@@ -5,46 +5,12 @@
     gap: 2%;
 }
 
-.arrow{
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-}
-
-.arrow button{
-    border-color: transparent;
-    cursor: pointer;
-}
-
-.arrow-icon{
-    width: 60px;
-    height: 60px;
-    transition: transform 0.4s;
-    background-color: transparent;
-    background-image: none;
-}
-
-.arrow-icon:hover{
-    transform: scale(1.3);
-}
-
-#leftArrow{
-    grid-column: 1;
-    z-index: 1000;
-}
-
 #projectContainer{
     grid-column: 2;
     display: flex;
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
-}
-
-#rightArrow{
-    grid-column: 3;
-    z-index: 1000;
-
 }
 
 .project{
@@ -67,4 +33,59 @@
     text-decoration-line: none;
     border-radius: 20px;
     padding: 5px 10px;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.arrow button{
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.arrow-icon{
+    width: 60px;
+    height: 60px;
+    transition: transform 0.4s;
+    background-color: transparent;
+    background-image: none;
+}
+
+#leftArrow{
+    grid-column: 1;
+    z-index: 1000;
+}
+
+@keyframes rightToLeft {
+    0% {
+        transform: scale(1) translateX(0px);
+    }
+    100%{
+        transform: scale(1.3) translateX(10px);
+    }
+}
+
+@keyframes leftToRight {
+    0% {
+        transform: scale(1) translateX(0px);
+    }
+    100%{
+        transform: scale(1.3) translateX(-10px);
+    }
+}
+
+#leftArrow .arrow-icon:hover{
+    animation: leftToRight 0.4s ease-in-out 0s infinite alternate;
+}
+
+#rightArrow{
+    grid-column: 3;
+    z-index: 1000;
+}
+
+#rightArrow .arrow-icon:hover{
+    animation: rightToLeft 0.4s ease-in-out 0s infinite alternate;
 }

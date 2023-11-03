@@ -7,7 +7,6 @@ export default function MenuItems(props) {
         <NavNode aClass={props.ancClass} name="About" />
         <NavNode aClass={props.ancClass} name="Projects" />
         <NavNode aClass={props.ancClass} name="Education & Experience" />
-        <NavNode aClass={props.ancClass} name="Contact" />
       </ul>
     );
   }
