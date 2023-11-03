@@ -29,7 +29,7 @@ export default function NavBar() {
     <div>
       <nav className="menu" id="navBar">
         <a id="side-title" href="/">
-          <h1>Daniel Portfolio</h1>
+          <h1>Daniel Resume</h1>
         </a>
         <MenuItems ancClass="colorizeButton circle" />
         <button

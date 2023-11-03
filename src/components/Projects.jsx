@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import jsonFiles from "../utils/projectsList.js";
 import "../styles/Projects.css";
 
@@ -22,16 +22,6 @@ export default function Projects() {
         document.getElementById('project-' + showProjectId).style.display = "none";
         setShowProjectId(nextId);
     }
-
-    useEffect(() => {
-        const divs = document.querySelectorAll(".project");
-        const maxHeight = Math.max(...Array.from(divs).map(div =>{
-            console.log(div.clientHeight);
-            return div.clientHeight;
-        } ));
-    
-        document.getElementById("projectContainer").style.height = maxHeight;
-      }, []);
 
     return (
     <div id="Projects" className="mainContainer">
