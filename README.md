@@ -3,7 +3,7 @@
 A personal resume website developed with JavaScript, React, and styled with CSS.
 
 
-## [My resume web link](https://danielbzz.github.io/WebCV/){:target="_blank" rel="noopener noreferrer"}
+## [My resume web link](https://danielbzz.github.io/WebCV/{:target="_blank" rel="noopener noreferrer"})
 
 
 ## About
@@ -24,4 +24,4 @@ This project is licensed under the MIT License
 
 ## Acknowledgements
 
-[Bootstrap](https://getbootstrap.com/){:target="_blank" rel="noopener noreferrer"}
+[Bootstrap](https://getbootstrap.com/{:target="_blank" rel="noopener noreferrer"})
