@@ -2,6 +2,10 @@
 
 A personal resume website developed with JavaScript, React, and styled with CSS.
 
+
+## [My resume web link](https://danielbzz.github.io/WebCV/){:target="_blank" rel="noopener noreferrer"}
+
+
 ## About
 
 The Daniel Resume is a personal resume website showcasing details about my education, skills, projects, and contact information.
@@ -20,4 +24,4 @@ This project is licensed under the MIT License
 
 ## Acknowledgements
 
-<a target="_blank" rel="noreferrer" href="https://getbootstrap.com/">Bootstrap</a> - Used for icons.
+[Bootstrap](https://getbootstrap.com/){:target="_blank" rel="noopener noreferrer"}
