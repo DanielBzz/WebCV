@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/WebCV/static/css/main.d1cda1f9.css",
-    "main.js": "/WebCV/static/js/main.e6dd528f.js",
+    "main.js": "/WebCV/static/js/main.ac987500.js",
     "static/media/45-degree-fabric-dark.png": "/WebCV/static/media/45-degree-fabric-dark.3a1471f2da0e2229237f.png",
     "static/media/smartInvestLogo.jpg": "/WebCV/static/media/smartInvestLogo.70a932e7a03b64e2f456.jpg",
     "index.html": "/WebCV/index.html",
     "static/media/list.svg": "/WebCV/static/media/list.900d412963e6c20085831bdefe1b975d.svg",
     "main.d1cda1f9.css.map": "/WebCV/static/css/main.d1cda1f9.css.map",
-    "main.e6dd528f.js.map": "/WebCV/static/js/main.e6dd528f.js.map"
+    "main.ac987500.js.map": "/WebCV/static/js/main.ac987500.js.map"
   },
   "entrypoints": [
     "static/css/main.d1cda1f9.css",
-    "static/js/main.e6dd528f.js"
+    "static/js/main.ac987500.js"
   ]
 }
